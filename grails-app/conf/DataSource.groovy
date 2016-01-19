@@ -31,7 +31,7 @@ environments {
     production {
         dataSource {
             dbCreate = "update"
-            url = "jdbc:h2:file:C:/data/bethel;MVCC=TRUE"
+            url = "jdbc:h2:prodDb;MVCC=TRUE"
             pooled = true
             properties {
                maxActive = -1
